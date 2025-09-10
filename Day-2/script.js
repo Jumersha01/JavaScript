@@ -33,13 +33,13 @@ num =25;
 console.log(num.toString(2)) // to string convert the number into base 
 
 // math methods
-console.log(Math.sqrt(16))
-console.log(Math.cbrt(27))
-console.log(Math.pow(2,3))
-console.log(Math.abs(-4))
-console.log(Math.max(5,3))
-console.log(Math.round(5.4))
-console.log(Math.min(1,2,3,-7))
-console.log(Math.ceil(2.1))
-console.log(Math.floor(2.1))
+console.log(Math.sqrt(16)) //4
+console.log(Math.cbrt(27)) //3
+console.log(Math.pow(2,3))// 8
+console.log(Math.abs(-4)) // 4
+console.log(Math.max(5,5,9,10)) //5
+console.log(Math.round(5.4))//5
+console.log(Math.min(1,2,3,-7))//-7
+console.log(Math.ceil(2.1))//3
+console.log(Math.floor(2.1))//2
 console.log(Math.ceil(Math.random()*10000))
