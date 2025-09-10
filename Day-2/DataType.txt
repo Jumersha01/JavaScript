@@ -1,6 +1,6 @@
 Datatypes in Javascript:
 Javascript is the dynamic programming language it means in Javascript, there is no fixed Datatype to a variable.
-The datatype of a variable id ecided by the value is is holding.
+The datatype of a variable id ecided by the value it is holding.
 
 There are two type of datatype
 1. premitive datatype
@@ -34,3 +34,4 @@ e.g
  numbers also have math methods such as sqrt, cbrt, pow, ceil, floor ,round;
 
 
+4
