@@ -1,0 +1,7 @@
+Strings: String is a collection of characters 
+eg :"abc224" "abc 123"
+In Javascript string can be written single or double quotes.There is noe differernce between but  used altarnatively in nesetd Strings
+
+Strings can also be dynamic called "Template Literal" it uses backticks and ${} for dynamic values 
+let x ="Junaid"
+console.log(`the name is ${x}`)
