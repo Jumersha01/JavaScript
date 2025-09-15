@@ -8,7 +8,7 @@ undefined expect future occupance of value
 null: null is also the primitive value that indicate the variable has no value or no objectf
 
                                           Operators
-=======================================================================================================================================
+=================================================================================================================================
 
 Operator are used to perfoms operation there are different types of operators such as
 
