@@ -1,9 +1,9 @@
 The decision making statement these are also called controll statements which are used to controll the flow of code
 based on a condition or decision .Most used decision making statement are  
 if
-switch
+switch 
 
-if: if is use as a control statement where  if leads to a block of code of if the  condition is true 
+if if is use as a control statement where  if leads to a block of code of if the  condition is true 
  there are multiple variation for if such as 
   i. simple if:
      if(condition){
