@@ -1,0 +1,68 @@
+do while : is used exit control loop which check the condition at the exit of the body
+if the condition is true it repeats the loop else it terminates
+ synatx: 
+   initialization
+   do{
+    //staments;
+    //updattion
+   }
+   while(condition);
+     eg: print only even nuber between 1 to 20 using do while
+       let i = 1;
+       do {
+        console.log(i);
+        i++;
+       }
+       while(i<=20);
+
+       -------------------------------------------------------------------------------
+                                      Tasks
+       --------------------------------------------------------------------------------
+loops: 
+ 1.write a js code to print sum of array elements 
+   let ar=[5,4,3,2,1];
+let sum =0;
+for(let i =0;i<=ar.length-1;i++){
+ sum+=ar[i];
+}
+console.log(sum)
+    
+    2.write a js code to chekc weathr sum of digits is equals to number of product of digit for a even no
+    eg: 144 = 1+4+4 =9;
+               1*4*4 =16  no
+        22  = 2+2 =4
+              2*2 =4
+
+              
+let sum = 0;
+let product =1;
+let num = 22;
+let num2 =num;
+while(num!=0){
+    sum +=num%10;
+    product *=num%10;
+    num = Math.floor( num/10);
+
+}
+
+
+if(sum==product){
+    console.log("Yes");
+}
+else{
+    console.log("NO");
+}
+
+
+              3.using loops find the sum of nested arrays and print them like 
+              eg: marks=[[10,20,10.50],[0,10,300 40],[10,10,10,10]]
+              let count =1
+for(i  of marks){
+    let sum =0;
+    
+    for(let j of i){
+        sum+=j;
+    }
+    console.log(`the sum of test ${count} and ${sum}`)
+    count++;
+}
