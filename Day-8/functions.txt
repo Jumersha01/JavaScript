@@ -1,0 +1,71 @@
+Function: function is  a block of code which can be reusable. instead of impleamenting whole code,
+we can devide the code into logical parts called functions
+  Main Advantages:
+   i.Reusability
+   ii.Modularity
+   iii.Easy to understand & debug
+   
+   Every function will have function declaration, function defination & function call
+
+   Syntax: function function_name(parameters){
+
+    //defination;
+
+   }
+   function_name(arguments);
+
+   1.simple function: write a function that prints "Hellow World" and  call it
+
+    function helloWorld(){
+    console.log("Hellow world");
+}
+helloWorld();
+
+function can also accept parameters which are passed while calling the function
+2.//write a function that takes two values and print their sum
+
+   function sum(a,b){
+    console.log(` sum is ${a+b}`);
+}
+sum(5,4);
+sum(2)//2+undefined is NaN
+sum()//undefined+undefined NaN
+
+function can even return the value
+3.//write  a function that accepts a string and return a number of character;
+
+function NumberOfchar(x){
+    if(typeof(x)=='string'){
+
+    return x.length;
+    }
+    else{
+        return `Ipute string only`
+    }
+}
+let value = NumberOfchar("Junaid");
+let valu2 = NumberOfchar(1234);
+console.log(value);
+console.log(valu2);
+
+
+functions are also treated as a variable in the JavaScript so that whole function defination is strored as a variable
+we can even creat even "function expressions"
+
+let a = function(){
+    console.log("Hi");
+}
+a();
+console.log(a)// whole function will be printed
+
+//write a function that return area of circle using parameters radius;
+
+unction areaOf(r){
+    return Math.PI*r*r;
+}
+let a1 =areaOf(5);
+console.log(a1)
+
+
+function expressions can also be simplified as Arrow functions
+Arrow function dont use keyword 'function' and return if only one statement is there
