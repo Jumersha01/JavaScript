@@ -1,0 +1,49 @@
+Callback Fuctions: Callback fuction are the function which are passed as a parameter to another function
+  eg   
+      function mad(){
+        console.log("Im mad")'
+      }
+
+      function fun(x){
+        x()
+      }
+      fun(mad);
+
+      the function which passed as parameter is called callback function
+      the fuction which take the function as a parameter is called higher order function
+
+      function greet(name,fun){
+    fun(name)
+}
+
+function Sayname(n){
+console.log(`My name is ${n}`)
+}
+greet("Junaid",Sayname)
+ here Sayname is passed as a argument to another function so it is callback fuction
+ and greet is receiving fuction so it is higher ordere fuction          
+
+ Closures: Closures is a memory technique in which innner loops/function remmmber the outer
+  loop/function value even after outer loop/function execution ended;(leetcode30 Day)
+  
+  eg
+  
+function outer(){
+      let a = 5;
+      function inner(){
+        console.log(a);
+      }
+      return inner
+}
+
+let x = outer()
+console.log(x())
+
+IIFE:(Immdediate function Expression): An iife is a function that is defined and invoked immediatley 
+it is used to hide the data from the global scop
+
+  eg:
+     (function(){
+        console.log("Hi);
+     })();
+
