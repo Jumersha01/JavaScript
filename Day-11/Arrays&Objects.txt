@@ -1,0 +1,35 @@
+// user forEch and print each elements cube in given array;
+let arr =[5,4,9,8];
+arr.forEach((i,index) => {
+    console.log(i*i*i);
+});
+
+//to go for the every element 
+foreach cannot return a value
+
+
+map(callbackfunction(element,index))4
+map is used to pass a callback funciton to each and every element of the 
+arrray and return a value for each and everly element of the araray
+
+let values = arr.map((i,index) => {
+    return i*i;
+});
+console.log(values);
+
+filter() is also similar to map but return the only element whose condition is true
+let arr = [5,4,6,3];
+
+let values = arr.filter((i,index) => {
+    return i>=5;
+});
+console.log(values);//[5,6]
+
+10.indexOf('ele') it is used to return the first occurent of element index
+
+11.find(callback(e,i)) workd similarty as filter but return first element/occrence that satsfied the condition
+we can use altarnatives findIndex findLast findLastIndex
+
+12.reverse() it is used to reverse the given array
+
+13.reduce(callback(prev,curr),initial value ) it is used to find cumalative values in given array
