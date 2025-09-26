@@ -1,0 +1,48 @@
+object: object is collection of key value pairs where each key is index to specific value
+object are represent by curly braces {}
+
+let obje ={
+    name:"Junaid",
+    age:23;
+}
+console.log(obje.name)//name will be print
+console.log(obje[name]);// name will be print
+console.log(obje) whole object will be print
+
+
+//adding the property to the object
+obje.email:"jullme@gmail.com"
+
+We can create an object using Object.create0() method it create the ojbject with protype inheritance
+
+
+//diffrence between freez and seal seas will allow you to modify but now adding
+
+Object.freez(obje)// it will not allow to add remove update the property
+Object.seal(obje)// it will not allow add or remove the property but allows to modify the property
+delete(obje.age)// age it will be deleted
+
+
+/////////////////////////////////////////////////////// Dom document object model  /////////////////////////////////////////////////////
+document is an object that conains complete structure of the web page in tree like formate 
+it allows to manipulate or interact with document elments,attributes or context
+
+-------------
+We can select any elments from document object using following methods
+-----------
+getElemetsByTagName(`Tagname`) it is used to selct the specific tag name are return the array of elments
+
+let x = document.body.getElemetsByTagName("h1");
+
+// chanign the inside text
+
+x[0].textContent="Hellow EveryOne"
+
+ii.getElemetsByClassName('classname')..
+it is used to selet he elments by class name and return the array of elments
+
+iii.getElemetsById('id') it is used to select single elmentsof specific id and it return single of that id elments
+
+//select achoor tag using id selector
+let z=document.getElemetsById('a')
+z.href="https://www.instagram.com"

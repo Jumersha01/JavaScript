@@ -1,0 +1,25 @@
+
+dom manipulation
+dom creation deletion
+events 
+form validation 
+rest vs spread this key word
+ecs6
+
+iv.querySelector('element of query') it is used to select the first element based on the query
+  eg:  let y = document.body.querySelector('.Empty') select the element which id is Empty
+
+  v.querySelectorAll() select all the element based on the quary you have made
+   eg: let x = document.body.querySelectorAll(".all");
+
+   Events: are actions that occure when a user interacts with the webpage such as clicking a button submitting a form 
+   scrolling a page hovering over an element etc 
+    those events can be handle using event handler such as onClick()
+
+    DOM manipulation: We can manipulation an element using below propertes 
+     1.textContent: used to read or change the text inside an element
+    2.innterText: used to read or change the text inside an element but it also laods css in case
+      visiblity hidden in css it cant overpass it.
+    3.innerHTML: is used to read or change html inside an element
+ 4.sytle:used to change or read the sytle of an element
+  5.value:it is used to acces the /read or change the value of input
