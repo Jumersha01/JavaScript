@@ -1,0 +1,23 @@
+Events :are used to trigger based on users action they trigger functions to perform a certain task
+based on user action Events are devided as several types such as
+
+i.mouse Events: area used when user did an action using mouse
+eg; click ,mouseover ,mouseout
+         
+
+ii.keyboard Events:are used when user did a action using keyboard
+  eg:keyUp,keyDown,keyPress etc.. 
+    Every  time event trigered  it passed the object to the callback functions called eventObject it contain complete Event detail    
+
+
+iii. form Event: this events are used to get teh details of inputes or form related from user there are diffrent types of form event
+
+ submit:used to submit the entire form
+ reset: is used whenever form detail got reset
+ change : is used when form input value got changed 
+ input:is used when form values got entered 
+ select:is used when an input value is selected out of option
+ focus:is used when input value got focused
+ etc...,
+
+ 
