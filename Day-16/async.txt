@@ -1,0 +1,14 @@
+Normally javascript is synchronous and single threaded porgrammig langauge
+
+Asynchronous javascript allows to execute code, not immdediately. Asynchronous javascript allow to execute only specific code withou interepting other code
+or ui
+  eg: adding item to cart 
+      score update in cricbuzz etc
+
+      we can use browser default timers to understadn AJAX brouser provide two default methods
+
+       i.setTimout : is used to perform a task after a specific time
+          syntax  setTimout(cllbakc(),1000);
+            setInterval: is used to perform a task every time of specific interval 
+               setInterval(callback(),1000)
+               
