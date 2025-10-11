@@ -1,0 +1,19 @@
+To understand AJAX  we need to understand callbacks and event loop 
+
+ Promises: callbacks create a problem called callback hell or  'pyramid of doom' which is nothing but nested callbacks
+ multiple times . callback hell code is diffucult to read and maintaine to avoiid this problem we use Promises
+ promis is an object which describes an eventual completion of asycnhrounous operation or task it contains three states
+  1.pending
+  2.fullfilled
+  3.rejected
+the default state is pending 
+a promise cab be handled using .then .catch
+promis
+.then(callback())
+.catch(callbacks())
+
+the series of promises connected to each other is called promise chaining
+
+API(Apllication Programmig Interface): are used to communicate between two softwares basically client and server client
+request to the server using api and server respond to the client using api APi are created and maintained by the server 
+client recieves the promise whenever it request to the api on ce the prpmises resolved it recieves the data through api
