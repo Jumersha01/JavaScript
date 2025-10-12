@@ -1,0 +1,8 @@
+To implenent apis in our code we have to ways 
+
+i.using XMLHttpRequest (old way)
+ii. using fetch() (new way)
+.then(response)=>ronsonse.json())
+.then(data)=>console.log(data))
+.catch((error)=>consoe.log(error))
+fetch is a browser inbuilt method to make API calls. fetch is return a promise which can be hanndle by .then and .cath
