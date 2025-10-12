@@ -16,21 +16,13 @@ p.then((data)=>{
 let imgs = document.body.querySelector('.im')
 console.log(imgs)
 
-
-document.body.addEventListener("Keydown",(e)=>{
-   if(e.key=="Enter"){
-     let dog = document.querySelector(".inp").value
-    console.log(dog)
     async function a() {
-    let a = await fetch(`https://dog.ceo/api/${dog}/image/random`);
+    let a = await fetch(`https://dog.ceo/api/breeds/image/random`);
     let b = await a.json()
 let s = b.message;
 console.log(s)
-imgs.src=s
+imgs.src=s;
 
 
 }
 a()
-   }
-
-})
