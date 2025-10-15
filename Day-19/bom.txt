@@ -1,0 +1,41 @@
+BOM : browser object model browser provide an object to control the complete browser (not a web page),that is "windwo"
+ the methods like alert prompt confirm  setTimeout, setInterval,fetch object document are all part of window object
+It have default methods like
+i. basic usage: 
+we can open an close the window using window.open(url) window.close()/ varable.close()
+
+ii.history:  we cannot access actuall history pages but we can access methods like 
+  back()-- used to go back
+  forward()-- used to go forward
+
+ iii.location: we can access current weppage details using window location.
+ href-- complete page url
+Search--Only Search urls
+reload()-- reload thecurrent web page
+replace -- replaces the current web page url
+
+iv.geolocation: we can access geolocation using window.navigator.geolocation
+  window.navigator.geolocation.getCurrentPosition((response)=>{
+     console.log(response.coords.latitude,response.coords.longitude)
+    })
+
+v.we can even acces camera and mic using window.navigator.mediadevices
+ let mes = new SpeechSynthesisUtterance("hellooooooooooooooooooooooo")
+   speechSynthesis.speak(mes)
+
+vi.local storage vs session storage
+browser can even store the data using local storage or session storage.
+local storage is permenetn stays even after browser closes
+session storage is temparary and expires once the browser closes
+
+local storage can be sharesd with all the tabs
+session storage stays only for one tab
+
+local or session storage uses similar methods such as 
+localStorage.setItem(itemName,value)---always store the value as string
+localStorage.getItem(itemName)
+localStorage.clear()
+localStorage.removeItem(itemName)
+
+Libraries:Libraries is a pre-written code for specific purpose
+(...typed js)
