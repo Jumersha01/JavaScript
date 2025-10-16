@@ -1,0 +1,40 @@
+Libraries : Library is  prewritten code for specific purpose
+  most famous Libraries are
+   1.JQuery
+   2.Axious
+   3.React
+   4.slick/swiper js/ owl carousel/ tns slider
+   4.AOS(animate on scroll)
+   6.GSAP
+   7.three JS / animate js
+   8.chartjs
+
+   how to use a libraris: 
+   1.take libraris cdn link  aand atach to the html page
+   2.Read the documentation apply neccessary changes
+
+   ES6: ECMAScript is the  standard that js follows  if js is like a chef  then ECMAScript is like a recipe  book
+    every a new features need to be added to js, a new versionof ES will be released , ES6 released in 2015 also called
+    ES2015. the latest version of is ES2024 or ES2015 ES actually brought lot of revolutionary features such as
+
+    i.let and const
+    ii.template literals 
+    iii.arrow function
+    iv.default parametiers
+    v.Pormises / Async Await
+    vi.OOP
+    vii. destructuring array/ object
+    ix.ES6 modules
+
+the third approach explain Object oriented Progamming . it constanstly foucus on objects
+objects will have properites and methods
+
+clas is a standard/ blueprint of object it contains muliple objects so 
+class Fruit
+{
+clor;ship;name;taste;
+}
+apple is an boject which is from class Fruit
+//To create objec t we sue keyword new -- to generate dynamic memory 
+let apple  = new Fruit();
+let banana = new Fruit();
