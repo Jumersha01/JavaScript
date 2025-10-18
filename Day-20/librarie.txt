@@ -38,3 +38,31 @@ apple is an boject which is from class Fruit
 //To create objec t we sue keyword new -- to generate dynamic memory 
 let apple  = new Fruit();
 let banana = new Fruit();
+
+//Inheritance: when a class is derived from another  class it called Inheritance
+
+destructuring in objects or arrays:
+let arr=[5,4,6,9];//destructuring of arrays
+let [a,b,c,d]=arr;
+
+let person ={
+  name:"Junaid",
+  age:55
+}
+let {name,age}=person;//destructuring of object
+
+Rest of the parameters: it is represented by ... and it will used to collect all the rest of the parameters ans store 
+them as an array. it is always written at last parameters
+
+let  [a,...b] = ["raj","junaid","sonu"];
+console.log(a)// raj
+console.log(b)//junaid sonu
+
+Spread opertor: it is used to spread out the array. its alos represented by ... dots
+
+let a =[1,2];
+let b =[3,4];
+let c = [...a,..b]
+
+Modules:
+
